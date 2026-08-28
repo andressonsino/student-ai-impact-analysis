@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ─── Data Science — datasets y archivos pesados ──────────────────────────────
+data/
+data/raw/
+data/clean/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.xlsx
+*.xls
+
+# ─── Modelos entrenados ───────────────────────────────────────────────────────
+models/
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# ─── Notebooks con outputs pesados ───────────────────────────────────────────
+# (opcional — los outputs de celdas pueden pesar mucho)
+# *.ipynb  ← solo si querés ignorar todos los notebooks
+
+# ─── Credenciales y claves ───────────────────────────────────────────────────
+*.env
+secrets.py
+kaggle.json
+credentials.json
+service_account.json
